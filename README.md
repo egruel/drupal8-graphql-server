@@ -1,6 +1,6 @@
 # Drupal 8 graphql blog public API
 
-This site exposes a public API to test graphql with Drupal 8. This is simple blog using "article" content type. Each article has a main image and tags.
+This site exposes a public API to test graphql with Drupal 8. This is simple blog using "article" content type. Each article has a main image and tags. You can use it for free with your favorite front-end library.
 
 Use explorer to create some graphQL queries
 http://dev-graphql-demo-blog.pantheonsite.io/graphql/explorer
