@@ -1,4 +1,4 @@
-# Drupal 8 graphql blog public API
+# Drupal 8 graphQL blog public API
 
 This site exposes a public API to test graphql with Drupal 8. This is simple fictive blog using "article" content type. Each article has a main image and tags. You can use it for free with your favorite front-end library.
 
