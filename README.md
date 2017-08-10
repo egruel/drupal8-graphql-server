@@ -75,8 +75,6 @@ Enable all graphQL modules, except the mutations ones, unless you know what you 
 
 ### configuration
 
-Create some taxonomy termes
-
 sites/default/service.yml :
 
 ```yml
