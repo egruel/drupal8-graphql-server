@@ -62,4 +62,29 @@ http://dev-graphql-demo-blog.pantheonsite.io/graphql/voyager
 }
 ```
 
+## installed module and Drupal 8 configuration
 
+### modules
+composer require drupal/graphQL
+composer require drupal/pathauto
+
+### configuration
+
+sites/default/service.yml :
+
+```yml
+  cors.config:
+    enabled: true
+    # Specify allowed headers, like 'x-allowed-header'.
+    allowedHeaders: ['x-allowed-header']
+    # Specify allowed request methods, specify ['*'] to allow all possible ones.
+    allowedMethods: ['*']
+    # Configure requests allowed from specific origins.
+    allowedOrigins: ['*']
+    # Sets the Access-Control-Expose-Headers header.
+    exposedHeaders: false
+    # Sets the Access-Control-Max-Age header.
+    maxAge: false
+    # Sets the Access-Control-Allow-Credentials header.
+    supportsCredentials: false
+```
