@@ -10,11 +10,11 @@ http://dev-graphql-demo-blog.pantheonsite.io/graphql/voyager
 
 # Example queries :
 
-## get all articles
+## get 10 articles
 
 ```graphql
 {
-  nodeQuery(filter:{type:"article"}) {
+  nodeQuery(limit:10, offset:0, filter:{type:"article"}) {
     entities{
       entityLabel
       entityUrl {
