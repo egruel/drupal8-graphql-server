@@ -35,3 +35,27 @@ http://dev-graphql-demo-blog.pantheonsite.io/graphql/voyager
   }
 }
 ```
+
+## get one article by its "path" field :
+
+```
+{
+  route(path:"/node/72") {
+    alias
+    routed
+    path
+    entity {
+      entityUuid
+      entityBundle
+      entityId
+      entityLabel
+      entityType
+      entityUrl {
+        alias
+        routed
+        path
+      }
+    }
+  }
+}
+
