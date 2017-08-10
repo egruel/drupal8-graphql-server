@@ -75,7 +75,7 @@ Enable all graphQL modules, except the mutations ones, unless you know what you 
 
 ### configuration
 
-sites/default/service.yml :
+sites/default/services.yml :
 
 ```yml
   cors.config:
