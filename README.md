@@ -22,7 +22,7 @@ http://dev-graphql-demo-blog.pantheonsite.io/graphql/voyager
       }
       ...on NodeArticle {
         fieldImage {
-          derivative(style:large) {
+          derivative(style:thumbnail) {
             url
           }
         }
@@ -40,22 +40,26 @@ http://dev-graphql-demo-blog.pantheonsite.io/graphql/voyager
 
 ```graphql
 {
-  route(path:"/cogo-fere-odio-uxor") {
+  route(path: "/cogo-fere-odio-uxor") {
     alias
     routed
     path
     entity {
-      entityUuid
-      entityBundle
-      entityId
       entityLabel
-      entityType
-      entityUrl {
-        alias
-        routed
-        path
+      ... on NodeArticle {
+        body
+        fieldImage {
+          derivative(style:large) {
+            url
+          }
+        }
+        fieldTags {
+          entityLabel
+        }
       }
     }
   }
 }
+```
+
 
