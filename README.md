@@ -3,13 +3,13 @@
 This site exposes a public API to test graphql with Drupal 8. This is simple fictive blog using "article" content type. Each article has a main image and tags. 
 
 You can use it for free with your favorite front-end library with this endpoint :
-http://dev-graphql-demo-blog.pantheonsite.io/graphql
+https://dev-graphql-demo-blog.pantheonsite.io/graphql
 
 Use explorer to create some graphQL queries
-http://dev-graphql-demo-blog.pantheonsite.io/graphql/explorer
+https://dev-graphql-demo-blog.pantheonsite.io/graphql/explorer
 
 Explore the schema with : 
-http://dev-graphql-demo-blog.pantheonsite.io/graphql/voyager
+https://dev-graphql-demo-blog.pantheonsite.io/graphql/voyager
 
 # Example queries :
 
