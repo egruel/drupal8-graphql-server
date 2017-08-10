@@ -62,13 +62,17 @@ http://dev-graphql-demo-blog.pantheonsite.io/graphql/voyager
 }
 ```
 
-## installed module and Drupal 8 configuration
+## installed modules and Drupal 8 configuration
 
 ### modules
 composer require drupal/graphQL
 composer require drupal/pathauto
 
+Enable all graphQL modules, except the mutations ones, unless you know what you are doing
+
 ### configuration
+
+Create some taxonomy termes
 
 sites/default/service.yml :
 
