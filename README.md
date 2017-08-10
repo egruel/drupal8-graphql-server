@@ -12,7 +12,7 @@ http://dev-graphql-demo-blog.pantheonsite.io/graphql/voyager
 
 ## get all articles
 
-```
+```graphql
 {
   nodeQuery(filter:{type:"article"}) {
     entities{
@@ -38,9 +38,9 @@ http://dev-graphql-demo-blog.pantheonsite.io/graphql/voyager
 
 ## get one article by its "path" field :
 
-```
+```graphql
 {
-  route(path:"/node/72") {
+  route(path:"/cogo-fere-odio-uxor") {
     alias
     routed
     path
