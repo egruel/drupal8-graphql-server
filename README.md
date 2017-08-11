@@ -75,6 +75,10 @@ You may test graphQL endpoint without any graphQL library, see this example :
 
 https://runkit.com/nyl-auster/simple-graphql-http-example
 
+## Example consumer :
+
+https://drupal8-graphql-demo-blog-nuxt.now.sh/
+
 ## installed modules and Drupal 8 configuration
 
 ### installed modules
