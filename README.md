@@ -1,14 +1,13 @@
 # Drupal 8 graphQL blog public API
 
-This site exposes a public API to test graphql with Drupal 8. This is simple fictive blog using "article" content type. Each article has a main image and tags. 
+https://dev-graphql-demo-blog.pantheonsite.io/graphql exposes a free public graphQL API, to test graphQL module with Drupal 8. 
 
-You can use it for free with your favorite front-end library with this endpoint :
-https://dev-graphql-demo-blog.pantheonsite.io/graphql
+This is simple fictive blog using "article" content type. Each article has a main image and tags. 
 
-Use explorer to create some graphQL queries
+Use "explorer" to test and explore graphQL queries
 https://dev-graphql-demo-blog.pantheonsite.io/graphql/explorer
 
-Explore the schema with : 
+You may explore the schema with the voyager : 
 https://dev-graphql-demo-blog.pantheonsite.io/graphql/voyager
 
 # Example queries :
@@ -67,15 +66,16 @@ https://dev-graphql-demo-blog.pantheonsite.io/graphql/voyager
 
 ## installed modules and Drupal 8 configuration
 
-### modules
-composer require drupal/graphQL
-composer require drupal/pathauto
+### installed modules
+
+- composer require drupal/graphQL
+- composer require drupal/pathauto
 
 Enable all graphQL modules, except the mutations ones, unless you know what you are doing
 
 ### configuration
 
-sites/default/services.yml :
+in *sites/default/services.yml :*
 
 ```yml
   cors.config:
