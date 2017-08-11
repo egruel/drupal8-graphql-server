@@ -17,12 +17,14 @@ https://dev-graphql-demo-blog.pantheonsite.io/graphql/voyager
 ```graphql
 {
   nodeQuery(limit:10, offset:0, filter:{type:"article"}) {
+    count
     entities{
       entityLabel
       entityUrl {
         path
       }
       ...on NodeArticle {
+        body
         fieldImage {
           derivative(style:thumbnail) {
             url
@@ -33,7 +35,6 @@ https://dev-graphql-demo-blog.pantheonsite.io/graphql/voyager
         }
       }
     }
-    count
   }
 }
 ```
