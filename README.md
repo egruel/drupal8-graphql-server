@@ -12,6 +12,8 @@ https://dev-graphql-demo-blog.pantheonsite.io/graphql/voyager
 
 # Example queries :
 
+You can tests for real thoses queries here : https://dev-graphql-demo-blog.pantheonsite.io/graphql/explorer
+
 ## get 10 articles
 
 ```graphql
