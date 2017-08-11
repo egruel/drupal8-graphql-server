@@ -67,6 +67,14 @@ You can tests for real thoses queries here : https://dev-graphql-demo-blog.panth
 }
 ```
 
+## how to send graphQL queries to the server
+
+You may use Apollo. React, Vue.js, Nuxt.js, Angular etc .. have apollo client libraries.
+
+You may test graphQL endpoint without any graphQL library, see this example :
+
+https://runkit.com/nyl-auster/simple-graphql-http-example
+
 ## installed modules and Drupal 8 configuration
 
 ### installed modules
