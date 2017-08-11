@@ -1,4 +1,4 @@
-# Drupal 8 graphQL public API
+# Drupal 8 graphQL public API [ WORK IN PROGRESS ]
 
 https://dev-graphql-demo-blog.pantheonsite.io/graphql exposes a free public graphQL API, to test graphQL module with Drupal 8. 
 
