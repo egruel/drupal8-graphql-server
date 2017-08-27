@@ -1,5 +1,7 @@
 # Drupal 8 graphQL public API [ WORK IN PROGRESS ]
 
+This is a very work in progress, feel free to open PR 
+
 https://dev-graphql-demo-blog.pantheonsite.io/graphql exposes a free public graphQL API, to test graphQL module with Drupal 8. 
 
 This is simple fictive blog using "article" content type. Each article has a main image and tags. 
