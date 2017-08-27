@@ -12,13 +12,13 @@ https://dev-graphql-demo-blog.pantheonsite.io/graphql/voyager
 
 Table of contents
 =================
-  * [Send graphQL queries to the server](#send-graphql-queries-to-the-server)
-  * [GraphQL example queries](#example-queries-)
+  * [GraphQL example queries](#example-queries)
     * [Get ten articles](#get-10-articles)
     * [Get one article by its path field](#get-one-article-by-its-path-field-)
-  * [How to create a graphql api server with Drupal 8](#how-to-create-a-graphql-api-server-with-drupal-8-)
+  * [Send graphQL queries to the server](#send-graphql-queries-to-the-server)
+  * [How to create a graphql api server with Drupal 8](#how-to-create-a-graphql-api-server-with-drupal-8)
 
-# Example queries :
+# Example queries
 
 You can tests for real thoses queries here : https://dev-graphql-demo-blog.pantheonsite.io/graphql/explorer
 
@@ -87,7 +87,7 @@ https://runkit.com/nyl-auster/simple-graphql-http-example
 
 https://drupal8-graphql-demo-blog-nuxt.now.sh/
 
-## installed modules and Drupal 8 configuration
+## How to create a graphql api server with Drupal 8
 
 ### installed modules
 
