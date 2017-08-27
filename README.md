@@ -10,6 +10,14 @@ https://dev-graphql-demo-blog.pantheonsite.io/graphql/explorer
 You may explore the schema with the voyager : 
 https://dev-graphql-demo-blog.pantheonsite.io/graphql/voyager
 
+Table of contents
+=================
+  * [Send graphQL queries to the server](#send-graphql-queries-to-the-server)
+  * [GraphQL example queries](#example-queries)
+    * [Get ten articles](#get-10-articles)
+    * [Get one article by its path field](#get-one-article-by-its-path-field-)
+  * [How to create a graphql api server with Drupal 8](#how-to-create-a-graphql-api-server-with-drupal-8-)
+
 # Example queries :
 
 You can tests for real thoses queries here : https://dev-graphql-demo-blog.pantheonsite.io/graphql/explorer
@@ -67,9 +75,9 @@ You can tests for real thoses queries here : https://dev-graphql-demo-blog.panth
 }
 ```
 
-## how to send graphQL queries to the server
+## Send graphQL queries to the server
 
-You may use Apollo. React, Vue.js, Nuxt.js, Angular etc .. have apollo client libraries.
+You may use an Apollo library with React, Vue.js, Nuxt.js, Angular etc .. 
 
 You may test graphQL endpoint without any graphQL library, see this example :
 
