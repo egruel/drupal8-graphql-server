@@ -90,6 +90,11 @@ Enable all graphQL modules, except the mutations ones, unless you know what you 
 
 ### configuration
 
+in back-office, expose entities at /admin/config/graphql/content
+Don't forget to attach the field to a display mode, for example, the default one.
+You can then use display mode to format the output of graphQL !
+
+
 in *sites/default/services.yml :*
 
 ```yml
