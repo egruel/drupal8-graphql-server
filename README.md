@@ -95,7 +95,6 @@ https://drupal8-graphql-demo-blog-nuxt.now.sh/
 
 - composer require drupal/graphQL
 - composer require drupal/pathauto ( create nice urls from our title in "alias" node field)
-- composer require drupal/snail ( protect drupal native path from being accidentally overriden by our front-end aliases )
 
 ### Configuration
 
