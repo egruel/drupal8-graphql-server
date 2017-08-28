@@ -104,6 +104,8 @@ in back-office, expose entities at /admin/config/graphql/content
 Don't forget to attach the field to a display mode, for example, the default one.
 You can then use display mode to format the output of graphQL !
 
+Then go to */admin/people/permissions* and check *Execute arbitrary GraphQL requests*; if you want your application to request your API without authentication.
+
 
 in *sites/default/services.yml :*
 
