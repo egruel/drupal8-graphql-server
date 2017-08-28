@@ -110,18 +110,18 @@ We know have to enable cors
 in *sites/default/services.yml :*
 
 ```yml
-  cors.config:
-    enabled: true
-    # Specify allowed headers, like 'x-allowed-header'.
-    allowedHeaders: ['x-csrf-token', 'authorization', 'content-type', 'accept', 'origin', 'x-requested-with']
-    # Specify allowed request methods, specify ['*'] to allow all possible ones.
-    allowedMethods: ['*']
-    # Configure requests allowed from specific origins.
-    allowedOrigins: ['*']
-    # Sets the Access-Control-Expose-Headers header.
-    exposedHeaders: false
-    # Sets the Access-Control-Max-Age header.
-    maxAge: false
-    # Sets the Access-Control-Allow-Credentials header.
-    supportsCredentials: false
+cors.config:
+  enabled: true
+  # Specify allowed headers, like 'x-allowed-header'.
+  allowedHeaders: ['x-csrf-token', 'authorization', 'content-type', 'accept', 'origin', 'x-requested-with']
+  # Specify allowed request methods, specify ['*'] to allow all possible ones.
+  allowedMethods: ['*']
+  # Configure requests allowed from specific origins.
+  allowedOrigins: ['*']
+  # Sets the Access-Control-Expose-Headers header.
+  exposedHeaders: false
+  # Sets the Access-Control-Max-Age header.
+  maxAge: false
+  # Sets the Access-Control-Allow-Credentials header.
+  supportsCredentials: false
 ```
