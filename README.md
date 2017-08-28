@@ -91,22 +91,22 @@ https://drupal8-graphql-demo-blog-nuxt.now.sh/
 
 ## How to create a graphql api server with Drupal 8
 
-### installed modules
+### Installed modules
 
 - composer require drupal/graphQL
-- composer require drupal/pathauto
+- composer require drupal/pathauto ( create nice urls from our title in "alias" node field)
+- composer require drupal/snail ( protect drupal native path from being accidentally overriden by our front-end aliases )
+
+### Configuration
 
 Enable all graphQL modules, except the mutations ones, unless you know what you are doing
-
-### configuration
-
-in back-office, expose entities at /admin/config/graphql/content
-Don't forget to attach the field to a display mode, for example, the default one.
-You can then use display mode to format the output of graphQL !
+Then in back-office, expose entities as graphQL api at /admin/config/graphql/content
+Don't forget to attach the fields to a display mode, for example, the default one.
+You can then use display mode to format the output of graphQL
 
 Then go to */admin/people/permissions* and check *Execute arbitrary GraphQL requests*; if you want your application to request your API without authentication.
 
-
+We know have to enable cors
 in *sites/default/services.yml :*
 
 ```yml
