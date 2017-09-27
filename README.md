@@ -101,7 +101,7 @@ https://drupal8-graphql-demo-blog-nuxt.now.sh/
 
 Enable all graphQL modules, except the mutations ones, unless you know what you are doing
 
-Then in back-office, *expose entities to graphQL* api at /admin/config/graphql/content
+Then in back-office, **expose entities to graphQL** api at /admin/config/graphql/content
 
 Don't forget to attach the fields to a display mode, for example, the default one.
 You can then use display mode to format the output of graphQL
