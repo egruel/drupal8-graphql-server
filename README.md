@@ -94,6 +94,7 @@ https://drupal8-graphql-demo-blog-nuxt.now.sh/
 ### Installed modules
 
 ```composer require drupal/graphQL```
+
 ```composer require drupal/pathauto``` ( to create nice urls our title in "alias" node field )
 
 ### Configuration
