@@ -108,8 +108,9 @@ You can then use display mode to format the output of graphQL
 
 Then go to */admin/people/permissions* and check *Execute arbitrary GraphQL requests*; if you want your application to request your API without authentication.
 
-We know have to enable cors
-in *sites/default/services.yml :*
+We know have to enable cors. 
+Make sure to rename *default.services.yml* to *services.yml* if this file does not exist.
+So, in *sites/default/services.yml :*
 
 ```yml
 cors.config:
